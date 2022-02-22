@@ -1,0 +1,345 @@
+@font-face {
+    font-family: my;
+    src: url('/font/Signika.ttf');
+  }
+  @font-face {
+    font-family: my2;
+    src: url('/font/logo.ttf');
+  }
+
+  body{
+      font-family: my;
+  }
+
+:root {
+  --main-bg-color: #023047;
+  --main-text-color: #045d8a;
+  --second-text-color: #bbbec5;
+  --second-bg-color: #a7defa;
+}
+
+.primary-text {
+  color: var(--main-text-color);
+}
+
+.second-text {
+  color: var(--second-text-color);
+}
+
+.primary-bg {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-bg {
+  background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+#wrapper {
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to right,
+    #a0ebf8,
+    #acedf8,
+    #aaecf8,
+    #cef1f7,
+    #caf0f7
+  );
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.rowl{
+    width: 700px;
+    height: 50vh;
+    background-color: #a7defa;
+}
+.logo{
+    font-family: my2;
+
+
+}
+
+nav li a, nav li input{
+    font-family: my;
+    font-size: 18px;
+}
+
+.rsociaux a {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: .2s;
+    padding: 10px;
+}
+
+.rsociaux a:hover{
+    background-color: #ecf5f5;
+
+
+}
+.cardy{
+    transition: .3s;
+
+
+}
+.cardy:hover{
+    border: 1px solid rgb(128, 128, 128, 0.5);
+
+    transform: translateY(-4px);
+}
+
+.titreLivre{
+    font-family: my;
+    font-size: 17px;
+    margin-top: 3px;
+
+}
+
+.row .img-auteur{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid gray;
+
+}
+
+.main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    /*animation: test .5s linear;*/
+    position: relative;
+    transition: .3s;
+
+}
+.main:hover{
+    transform: translateY(-5px);
+}
+
+.main img{
+    width: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+
+
+
+
+
+}
+
+.main em{
+    width: 300px;
+
+}
+
+
+
+
+
+.mainy{
+    background: url(/images/library.jpg) no-repeat;
+}
+
+.gallery-cell{
+
+    width: 100%;
+}
+
+
+.discount{
+    width: 70px;
+    height: 70px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+
+        border-radius: 50%;
+        margin-top: -280px;
+        margin-left: 60px;
+
+
+}
+.discount span{
+    font-family: my;
+}
+
+
+#collapsibleNavId ul li {
+    position: relative;
+}
+
+#collapsibleNavId ul .anm::after{
+   content: '';
+   position: absolute;
+   height: 2px;
+   bottom: 6px;
+   width: 0;
+
+   left: 0;
+   background-color: black;
+   transition: .4s;
+}
+
+#collapsibleNavId ul .anm:hover::after{
+    width: 50%;
+}
+
+#collapsibleNavId ul .anm::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: 6px;
+    width: 0px;
+
+    right: 0;
+    background-color: black;
+    transition: .4s;
+ }
+
+#collapsibleNavId ul .anm:hover::before{
+     width: 50%;
+}
+
+.countpa{
+    font-size: 12px;
+line-height: 1.1em;
+background: #ec6e14;
+padding: 2px;
+border: 2px solid #fff;
+border-radius: 50%;
+position: absolute;
+top: -1px;
+left: 13px;
+color: #fff;
+min-width: 22px;
+min-height: 22px;
+font-weight: 700;
+text-align: center;
+letter-spacing: -1px;
+text-indent: -1px;
+}
+
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+
+.container .fcmd:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+
+.editliv{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #023047;
+    border: none;
+    border-radius: .25rem;
+    -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+.editliv:hover{
+    background-color: #248ca7;
+}

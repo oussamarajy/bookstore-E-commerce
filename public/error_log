@@ -1,0 +1,102 @@
+[10-Feb-2022 20:08:56 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:08:56 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:08:59 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:08:59 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:09:10 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:09:10 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:09:28 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:09:28 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:09:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:09:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:10:10 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:10:10 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:10:16 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:10:16 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:11:41 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:11:41 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:11:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:11:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:15:46 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:15:46 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:15:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:15:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:38:25 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.3.33. in /home/egybxyge/public_html/my/vendor/composer/platform_check.php on line 24
+[10-Feb-2022 20:39:05 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.3.33. in /home/egybxyge/public_html/my/vendor/composer/platform_check.php on line 24
+[10-Feb-2022 20:40:05 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/egybxyge/public_html/my/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[10-Feb-2022 20:42:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/egybxyge/public_html/my/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Feb-2022 20:42:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Feb-2022 20:46:42 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:46:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:46:49 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:46:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:48:19 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:48:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:50:45 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:50:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:50:52 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:50:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:50:57 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:50:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:53:57 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:53:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:54:00 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 20:54:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 21:01:33 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 21:01:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 21:45:47 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[10-Feb-2022 21:45:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 02:08:21 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 02:08:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 02:48:04 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 02:48:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 03:19:16 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 03:19:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 04:57:25 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 04:57:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 09:51:48 UTC] PHP Warning:  require(/home/egybxyge/public_html/public/my/vendor/autoload.php): Failed to open stream: No such file or directory in /home/egybxyge/public_html/public/index.php on line 34
+[11-Feb-2022 09:51:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/egybxyge/public_html/public/my/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egybxyge/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/egybxyge/public_html/public/index.php on line 34
