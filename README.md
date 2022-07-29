@@ -1,4 +1,5 @@
-E-commerce Project BookStore
+E-commerce Project BookStore using laravel 8
+#bookstore laravel 8
 
 
 A book store created where admin is able to create, edit, update, delete book.
