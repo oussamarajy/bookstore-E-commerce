@@ -14,7 +14,7 @@ class AddViewsToLivres extends Migration
     public function up()
     {
         Schema::table('livres', function (Blueprint $table) {
-            $table->integer('views');
+            $table->integer('views')->default(0);
         });
     }
 
@@ -26,7 +26,7 @@ class AddViewsToLivres extends Migration
     public function down()
     {
         Schema::table('livres', function (Blueprint $table) {
-            $table->integer('views');
+            $table->integer('views')->default(0);
         });
     }
 }
